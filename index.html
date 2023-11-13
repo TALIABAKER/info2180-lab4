@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INFO2180 Lab 4 Superheroes Search</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Avengers Character Search</h1>
+</header>
+<main>
+    <div id='container'>
+        <h3>Search by Full name or Alias</h3>
+        <form action='superheroes.php' id='superhero-form'>
+            <input type="text" id="superhero" name="superhero" placeholder="eg. Captain America or Steve Rodgers">
+            <input type="submit" id='search' value="Search">
+        </form>
+        <h2>RESULT</h2>
+        <hr>
+        <p id="result"></p>
+    </div>
+</main>
+</body>
+</html>
